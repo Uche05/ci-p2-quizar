@@ -1,11 +1,11 @@
-# [AI Library](https://uche05.github.io/CI-PROJECTS-KUCJ/index.html "Click to view the deployed site")
+# [[name]](https://uche05.github.io/CI-PROJECTS-KUCJ/index.html "Click to view the deployed site")
 
-- AI Library is a static site that shares basic knowledge about AI, Artificial Intelligence.
-- The AI Library has been designed so that users at any level, who can read, write, and understand text (mainly in English), and have a drive to learn about AI, can easily comprehend its contents.
-- AI Library is especially handy for those wish to learn more about AI and its history and state of the arts.
-- AI Library showcases fundamental AI knowledge as well as advise to the generation where it has become more efficient.
-- AI Library is the AI website for everyone. The wikified website for just for knowing about AI and it is free.
-- AI Library also contains Machine Learning based knowledge.
+- [name] is a static site that shares basic knowledge about AI, Artificial Intelligence.
+- The [name] has been designed so that users at any level, who can read, write, and understand text (mainly in English), and have a drive to learn about AI, can easily comprehend its contents.
+- [name] is especially handy for those wish to learn more about AI and its history and state of the arts.
+- [name] showcases fundamental AI knowledge as well as advise to the generation where it has become more efficient.
+- [name] is the AI website for everyone. The wikified website for just for knowing about AI and it is free.
+- [name] also contains Machine Learning based knowledge.
 
 ## Table of Contents
 
@@ -58,7 +58,7 @@
 
 ## Mock-up Screenshots
 
-Below are two mock-up images of the AI Library website created using the  <a href="https://ui.dev/">"Am I Responsive" website</a>.
+Below are two mock-up images of the [name] website created using the  <a href="https://ui.dev/">"Am I Responsive" website</a>.
 
 | Screenshot 1 | Screenshot 2 |
 | :---: | :---: |
@@ -66,14 +66,14 @@ Below are two mock-up images of the AI Library website created using the  <a hre
 
 ## UX
 
-- The design for AI Library was created as a series of wireframes covering mobile, tablet and desktop to determine the initial design and layout of the site.
-- AI Library site was designed with ease of use and simplicity in mind.
+- The design for [name] was created as a series of wireframes covering mobile, tablet and desktop to determine the initial design and layout of the site.
+- [name] site was designed with ease of use and simplicity in mind.
 - A simple clean look was built so that all a user feels comfortable and neutral when using AILib to study.
-- AILib or AI Library is meant for people who are need knowledge of AI and it's state of the arts.
+- AILib or [name] is meant for people who are need knowledge of AI and it's state of the arts.
 
 ### Colour Scheme
 
-- The chosen colour scheme for AI Library is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour aesthetic for color-blinded people.
+- The chosen colour scheme for [name] is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour aesthetic for color-blinded people.
 - The colours used are as follows:-
 - #03045e (Federal Blue)
 - #0077b6
@@ -86,12 +86,12 @@ Below are two mock-up images of the AI Library website created using the  <a hre
 
 ### Typography
 
-- I used the Google Font called 'Moderustic' for the AI Library site and 'Lora' for the header.
-- I felt that this font had a cool style that is easy to read and that it fitted well with the AI Library site.
+- I used the Google Font called 'Moderustic' for the [name] site and 'Lora' for the header.
+- I felt that this font had a cool style that is easy to read and that it fitted well with the [name] site.
 - Montserrat was specifically used for the main content text. 
 
 ## Icons
-- [Font Awesome](https://fontawesome.com) icons were used in the AI Library site, for GitHub links in the footer and modal and for the search icon in the main weather card.
+- [Font Awesome](https://fontawesome.com) icons were used in the [name] site, for GitHub links in the footer and modal and for the search icon in the main weather card.
 
 ## User Stories
 
@@ -156,8 +156,8 @@ I made use of Google Slides to make the wireframes of my website.
 
 | Feature | Description | Screenshot |
 | :---: | :---: | :---: |
-| **About AI Library** | The 'About AI Library' link opens a modal that gives a little information about the site. | ![screenshot](documentation/features/landingpage1.png) |
-| **Navigation Menu of AI Lib** | The 'About AI Library Nav menu' contains links to the other webpages in the site. | ![screenshot](documentation/features/navmenu.png) |
+| **About [name]** | The 'About [name]' link opens a modal that gives a little information about the site. | ![screenshot](documentation/features/landingpage1.png) |
+| **Navigation Menu of AI Lib** | The 'About [name] Nav menu' contains links to the other webpages in the site. | ![screenshot](documentation/features/navmenu.png) |
 | **Footer** | The footer contains a link to the creators social media links. | ![screenshot](documentation/features/socialsinfooter.png) |
 |**Read Page**| The read page contains the written content about AI and ML- based knowledge including the AI Timeline|![screenshot](documentation/features/readandnav.png)|
 |**AI Timeline in Read Page**|This is the history of AI portrayed as a timeline in a section of the Read page|![screenshot](documentation/features/timelinehover.png)|
@@ -249,7 +249,7 @@ There are no notable differences between my local developed site and the GitHub 
 
 ## Credits
 
-The following are credits to various people and technologies that have directly or otherwise assisted in the creation of the AI Library site.
+The following are credits to various people and technologies that have directly or otherwise assisted in the creation of the [name] site.
 
 ### Content and Code
 
