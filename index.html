@@ -16,20 +16,20 @@
 <body>
 
     <header>
-        <h1>QuizAR</h1>
+        <h1>
+            <a href="index.html">QuizAR</a>
+        </h1>
     </header>
 
     <main>
         <!--Instruction Section-->
         <div class="instruction-sect">
-        <button>
-            
-        </button>
             <p>Welcome to QuizAR!</p>
             <ol>
                 <li>This is where your AI knowledge is tested!</li>
                 <li>Answer up to 10 questions to see your proficieny!</li>
                 <li>Play the game by clicking Start Quiz!!</li>
+                <li>Click on the QuizAR logo to refresh and start again!</li>
             </ol>
         <button id="start-quiz">Start Quiz!</button>
         </div>
@@ -37,14 +37,14 @@
         <!-- Question Section-->
         <div class="quiz-container">
             <div class="question-container">
-                <p id="question"></p>
+                <p id="question">What is the answer</p>
             </div>
 
             <div class="answer-container">
-                <button id="ans--1"></button>
-                <button id="ans--2"></button>
-                <button id="ans--3"></button>
-                <button id="ans--4"></button>
+                <button id="ans--1">A</button>
+                <button id="ans--2">B</button>
+                <button id="ans--3">C</button>
+                <button id="ans--4">D</button>
             </div>
 
             <button id="submit">Submit!</button>
@@ -52,11 +52,13 @@
     </main>
 
     <footer>
-        Uchechukwu Christian Kpadeuwa QuizAR © 2024. All rights reserved.
+        <p>Uchechukwu Christian Kpadeuwa QuizAR © 2024. All rights reserved.</p>
     </footer>
 
     <!--Script link-->
     <script src="assets/js/script.js"></script>
+    <!--Script link to FontAwesomeIcons-->
+    <script src="https://kit.fontawesome.com/af753a5c1b.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
