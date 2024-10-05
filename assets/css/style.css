@@ -84,7 +84,7 @@ h1 a{
 }
 
 #submit {
-    --width-size: 13%;
+    --width-size: 26%;
     border: #80a175 solid 5px;
     padding: 2%;
     width: var(--width-size);
