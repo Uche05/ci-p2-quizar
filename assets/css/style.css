@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: lime;
+    padding: 4%;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 4px;
+}
+
+.instruction-sect{
+    
+}
