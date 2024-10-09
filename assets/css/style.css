@@ -104,3 +104,36 @@ footer{
     margin-top: 10%;
     width: 100%;
 }
+
+/*Media queries*/
+
+
+/* Media query for desktops and larger devices (min-width: 1024px) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    header h1 a {
+        font-size: 3rem;
+    }
+
+    .instruction-sect {
+        padding: 50px;
+        font-size: 1.3rem;
+    }
+
+    .quiz-container {
+        max-width: 900px;
+        margin: 50px auto;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 20px 30px;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
