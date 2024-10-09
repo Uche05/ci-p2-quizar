@@ -1,11 +1,11 @@
-# [[name]](https://uche05.github.io/CI-PROJECTS-KUCJ/index.html "Click to view the deployed site")
+# [QuizAR](https://uche05.github.io/ci-p2-quizar/ "Click to view the deployed site")
 
-- [name] is a static site that shares basic knowledge about AI, Artificial Intelligence.
-- The [name] has been designed so that users at any level, who can read, write, and understand text (mainly in English), and have a drive to learn about AI, can easily comprehend its contents.
-- [name] is especially handy for those wish to learn more about AI and its history and state of the arts.
-- [name] showcases fundamental AI knowledge as well as advise to the generation where it has become more efficient.
-- [name] is the AI website for everyone. The wikified website for just for knowing about AI and it is free.
-- [name] also contains Machine Learning based knowledge.
+- QuizAR is a static site that askes quizzes on the basic knowledge about AI, Artificial Intelligence.
+- The QuizAR has been designed so that users at any level, who can read, write, and understand text (mainly in English), and have a drive to learn about AI, can answer the questions.
+- QuizAR is especially handy for those wish to be quized on about AI and its history and state of the arts.
+- QuizAR helps one reinforce their fundamental AI knowledge as th .
+- QuizAR is the AI website for everyone. The wikified website for just for knowing about AI and it is free.
+- QuizAR also contains Machine Learning based knowledge.
 
 ## Table of Contents
 
@@ -43,90 +43,85 @@
 
   - [Cloning](#cloning)
   - [Forking](#forking)
-
 - [Local vs Deployment](#local-vs-deployment)
 
 [Credits](#credits)
 
 - [Content and Code](#content-and-code)
-
 - [Media](#media)
-
 - [Acknowledgments](#acknowledgements)
 
 </details>
 
 ## Mock-up Screenshots
 
-Below are two mock-up images of the [name] website created using the  <a href="https://ui.dev/">"Am I Responsive" website</a>.
+Below are two mock-up images of the QuizAR website created using the  `<a href="https://ui.dev/">`"Am I Responsive" website `</a>`.
 
-| Screenshot 1 | Screenshot 2 |
-| :---: | :---: |
+|                         Screenshot 1                         |                         Screenshot 2                         |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![screenshot](documentation/features/readmeimages/mockup1.png) | ![screenshot](documentation/features/readmeimages/mockup2.png) |
 
 ## UX
 
-- The design for [name] was created as a series of wireframes covering mobile, tablet and desktop to determine the initial design and layout of the site.
-- [name] site was designed with ease of use and simplicity in mind.
+- The design for QuizAR was created as a series of wireframes covering mobile, tablet and desktop to determine the initial design and layout of the site.
+- QuizAR site was designed with ease of use and simplicity in mind.
 - A simple clean look was built so that all a user feels comfortable and neutral when using AILib to study.
-- AILib or [name] is meant for people who are need knowledge of AI and it's state of the arts.
+- AILib or QuizAR is meant for people who are need knowledge of AI and it's state of the arts.
 
 ### Colour Scheme
 
-- The chosen colour scheme for [name] is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour aesthetic for color-blinded people.
+- The chosen colour scheme for QuizAR is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour aesthetic for color-blinded people.
 - The colours used are as follows:-
 - #03045e (Federal Blue)
 - #0077b6
 - #ffffff (white)
-
 - I used [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-000000) to generate my colour palette initially.
 - I used [coloors.contrastchecker](https://coolors.co/contrast-checker) to check the contrast between text and background colors used, ensuring readability.
 - I used [colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) to ensure my chosen color palette is fit for color-blinded people. This feature was available in Firefox's Developer tools.
 
-
 ### Typography
 
-- I used the Google Font called 'Moderustic' for the [name] site and 'Lora' for the header.
-- I felt that this font had a cool style that is easy to read and that it fitted well with the [name] site.
-- Montserrat was specifically used for the main content text. 
+- I used the Google Font called 'Moderustic' for the QuizAR site and 'Lora' for the header.
+- I felt that this font had a cool style that is easy to read and that it fitted well with the QuizAR site.
+- Montserrat was specifically used for the main content text.
 
 ## Icons
-- [Font Awesome](https://fontawesome.com) icons were used in the [name] site, for GitHub links in the footer and modal and for the search icon in the main weather card.
+
+- [Font Awesome](https://fontawesome.com) icons were used in the QuizAR site, for GitHub links in the footer and modal and for the search icon in the main weather card.
 
 ## User Stories
 
 ### New Site Users
 
 - As a new site user, I would like to know what the site is about, so that I understand what the site does.
-![Screenshot](documentation/features/whatailibisabout.png)
+  ![Screenshot](documentation/features/whatailibisabout.png)
 - As a new site user, I would like to easily navigate through the website intuitively.
-![Screenshot](documentation/features/navmenu.png)
+  ![Screenshot](documentation/features/navmenu.png)
 - As a new user (mobile reader), I want to browse through a timeline of articles or events, so that I can easily navigate to content based on the date or relevance.
-![Screenshot](documentation/features/readandnav.png)
+  ![Screenshot](documentation/features/readandnav.png)
 - As a new mobile user, I want to have a vertically scrollable home page that adjusts to my screen size, so that I can easily read and interact with content on my device.
-![Screenshot](documentation/features/mobilewebview.png)
+  ![Screenshot](documentation/features/mobilewebview.png)
 - As a new user, I want to be able to give my contact information to the site for the sake of being contacted.
-![Screenshot](documentation/features/contactformview.png)
+  ![Screenshot](documentation/features/contactformview.png)
 - As a new user, I would want to identify the brand on social media such as Facebook or Instagram.
-![Screenshot](documentation/features/socialsinfooter.png)
+  ![Screenshot](documentation/features/socialsinfooter.png)
 - As a new user, I want to see a brief video on what AI Lib is about.
-![Screenshot](documentation/features/aboutvideo.png)
+  ![Screenshot](documentation/features/aboutvideo.png)
 - As a new mobile user, I want to have a vertically scrollable contact form.
-![Screenshot](documentation/features/verticalcontactform.png)
+  ![Screenshot](documentation/features/verticalcontactform.png)
 - As a new mobile user, I want to have a vertically scrollable timeline as it fits my screen size.
-![Screenshot](documentation/features/verticaltimelinehover.png)
-
+  ![Screenshot](documentation/features/verticaltimelinehover.png)
 
 ### Returning Site Users
 
 - As a returning site user, I would like to be able to access the articles easily.
-![screenshot](documentation/features/navmenu.png)
+  ![screenshot](documentation/features/navmenu.png)
 
 ### Future Site Users
 
 - As a future site user, I would like to explore a timeline of feature releases, so that I can see how the site has evolved over time.
 - AS a future site user, I want to click on a timeline event to be taken to a detailed page with images about that update or feature,
-so that I can learn more about the specific changes or improvements.
+  so that I can learn more about the specific changes or improvements.
 
 ## Wireframes
 
@@ -134,35 +129,35 @@ I made use of Google Slides to make the wireframes of my website.
 
 ### Mobile Wireframes
 
-| Main page |
-| :---: |
+|                        Main page                        |
+| :------------------------------------------------------: |
 | ![screenshot](documentation/features/mobilewireframe1.png) |
 
 ### Tablet Wireframes
 
-| Main page |
-| :---: |
+|                        Main page                        |
+| :-----------------------------------------------------: |
 | ![screenshot](documentation/features/tabletwireframe.png) |
 
 ### Desktop Wireframes
 
-| Main page |
-| :---: |
+|                        Main page                        |
+| :------------------------------------------------------: |
 | ![screenshot](documentation/features/desktopwireframe.png) |
 
 ## Features
 
 ### Existing Features
 
-| Feature | Description | Screenshot |
-| :---: | :---: | :---: |
-| **About [name]** | The 'About [name]' link opens a modal that gives a little information about the site. | ![screenshot](documentation/features/landingpage1.png) |
-| **Navigation Menu of AI Lib** | The 'About [name] Nav menu' contains links to the other webpages in the site. | ![screenshot](documentation/features/navmenu.png) |
-| **Footer** | The footer contains a link to the creators social media links. | ![screenshot](documentation/features/socialsinfooter.png) |
-|**Read Page**| The read page contains the written content about AI and ML- based knowledge including the AI Timeline|![screenshot](documentation/features/readandnav.png)|
-|**AI Timeline in Read Page**|This is the history of AI portrayed as a timeline in a section of the Read page|![screenshot](documentation/features/timelinehover.png)|
-| **Read Content Details & Summary Use** | The read section contained quite the number of details and summary elements to portary information on AI | ![screenshot](documentation/features/readcontent.png) |
-| **Roboot-like image** | The landing page color-synced image used was made by the developer himself | ![Screenshot](documentation/features/roboimage.png) |
+|                   Feature                   |                                               Description                                               |                       Screenshot                       |
+| :------------------------------------------: | :------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------: |
+|            **About QuizAR**            |          The 'About QuizAR' link opens a modal that gives a little information about the site.          |  ![screenshot](documentation/features/landingpage1.png)  |
+|     **Navigation Menu of AI Lib**     |              The 'About QuizAR Nav menu' contains links to the other webpages in the site.              |     ![screenshot](documentation/features/navmenu.png)     |
+|               **Footer**               |                      The footer contains a link to the creators social media links.                      | ![screenshot](documentation/features/socialsinfooter.png) |
+|             **Read Page**             |  The read page contains the written content about AI and ML- based knowledge including the AI Timeline  |   ![screenshot](documentation/features/readandnav.png)   |
+|      **AI Timeline in Read Page**      |             This is the history of AI portrayed as a timeline in a section of the Read page             |  ![screenshot](documentation/features/timelinehover.png)  |
+| **Read Content Details & Summary Use** | The read section contained quite the number of details and summary elements to portary information on AI |   ![screenshot](documentation/features/readcontent.png)   |
+|         **Roboot-like image**         |                The landing page color-synced image used was made by the developer himself                |    ![Screenshot](documentation/features/roboimage.png)    |
 
 ### Future Features
 
@@ -179,11 +174,11 @@ I made use of Google Slides to make the wireframes of my website.
 - [Am I Responsive](https://ui.dev/amiresponsive) used to make the markup screenshots to showcase in the readme file.
 - [Coolors](https://coolors.co) used to check color contrasts and make interactive color pallettes.
 - [Colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) used to see what my website would look like if I had colorblindness.
-Here are screenshots to know how what they(the color-blinded) perceive.
- ![screenshot](documentation/features/cbblueblind.png)
- ![screenshot](documentation/features/cbdeuteranomaly.png)
- ![screenshot](documentation/features/cbmonochromancy.png)
- ![screenshot](documentation/features/cbprotanomalyrw.png)
+  Here are screenshots to know how what they(the color-blinded) perceive.
+  ![screenshot](documentation/features/cbblueblind.png)
+  ![screenshot](documentation/features/cbdeuteranomaly.png)
+  ![screenshot](documentation/features/cbmonochromancy.png)
+  ![screenshot](documentation/features/cbprotanomalyrw.png)
 - [ChatGPT](https://chatgpt.com/) was utilized to aid me explain certain concepts on the written content from Wikipedia hence enabling me to understand and give my own report for the content of the website. It was also used as my aid in making the timeline webpage.
 - [CSS Diner](https://flukeout.github.io/) used to learn many CSS selector and rule set tricks and knowledge.
 - [DevTools](https://google.co.uk/chrome/) used to check regular responsivity, accessibility and overall decent previews of website before and after deployment.
@@ -229,7 +224,7 @@ You can clone the repository by following these steps:
 4. Open Git Bash or Terminal.
 5. Change the current working directory to the one where you want the cloned directory.
 6. In your IDE Terminal, type the following command to clone my repository:
-    - `git clone https://github.com/Uche05/ci-p1-ailib.git`
+   - `git clone https://github.com/Uche05/ci-p1-ailib.git`
 7. Press Enter to create your local clone.
 
 For Gitpod users, this was not implemented on gitpod, it was from my local PC directly to Github via git and some useful VSCode extensions.
@@ -249,44 +244,44 @@ There are no notable differences between my local developed site and the GitHub 
 
 ## Credits
 
-The following are credits to various people and technologies that have directly or otherwise assisted in the creation of the [name] site.
+The following are credits to various people and technologies that have directly or otherwise assisted in the creation of the QuizAR site.
 
 ### Content and Code
 
-| Source | Location | Notes |
-| --- | --- | --- |
-|[Written Content](https://en.wikipedia.org/wiki/Artificial_intelligence)|Topics and paragraphs in read page|Most of my topic ideas/inspiration and statements originated from using Wikipedia webpage about Artifical Intelligence|
-|[Written Content Source and Actual Arrangement of written content](https://onedrive.live.com/redir?resid=169491061D215030%21165&page=Edit&wd=target%28CompSciResearchToC.one%7C1473a864-1486-4c3b-b237-d074c17f2533%2F1.%20AI%20intro%7C7f209a27-06b3-450a-9cbe-e06a7cfa2fcf%2F%29&wdorigin=NavigationUrl)|Content in read page| All my written content source and actual arangement and writeup|
-|[History Knowledge](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)|History content in read pge|Picked out/learnt the history of AI from the page to make timeline. |
-|[Toogle Menu](https://uche05.github.io/CIstuff/)|Home Page- Mobile Devices|Toggle Menu Idea/Concept of using a checkbox to make menu bar instead of Javascript code trick(the Checkbox Trick) was from Love Running Project taught by Code Institute|
-| [Timeline Section](https://chatgpt.com/) | Timeline section on the read page | With the help of ChatGPT I was able to make a timeline section to illustrate the history of AI in due time and in my visual idea|
-|[Written content aid](https://chatgpt.com/)| Written Content Aid for Read Page| Certain topics such as Machine Learning, and understanding how LLMs work, written on the site on where also from what I learnt from ChatGPT|
-|[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given [github repo](https://github.com/boderg/your-weather) for the both "README" and "TESTING"|
-|[Code snippets](https://uche05.github.io/CIstuff/)|Code Snippets for header, main and footer elements and certain of their children| Certain header, main and footer elements where were created from inspiration from Love Running Project taught by Code Institute.|
+| Source                                                                                                                                                                                                                                                                                                  | Location                                                                         | Notes                                                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Written Content](https://en.wikipedia.org/wiki/Artificial_intelligence)                                                                                                                                                                                                                                   | Topics and paragraphs in read page                                               | Most of my topic ideas/inspiration and statements originated from using Wikipedia webpage about Artifical Intelligence                                                    |
+| [Written Content Source and Actual Arrangement of written content](https://onedrive.live.com/redir?resid=169491061D215030%21165&page=Edit&wd=target%28CompSciResearchToC.one%7C1473a864-1486-4c3b-b237-d074c17f2533%2F1.%20AI%20intro%7C7f209a27-06b3-450a-9cbe-e06a7cfa2fcf%2F%29&wdorigin=NavigationUrl) | Content in read page                                                             | All my written content source and actual arangement and writeup                                                                                                           |
+| [History Knowledge](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)                                                                                                                                                                                                                     | History content in read pge                                                      | Picked out/learnt the history of AI from the page to make timeline.                                                                                                       |
+| [Toogle Menu](https://uche05.github.io/CIstuff/)                                                                                                                                                                                                                                                           | Home Page- Mobile Devices                                                        | Toggle Menu Idea/Concept of using a checkbox to make menu bar instead of Javascript code trick(the Checkbox Trick) was from Love Running Project taught by Code Institute |
+| [Timeline Section](https://chatgpt.com/)                                                                                                                                                                                                                                                                   | Timeline section on the read page                                                | With the help of ChatGPT I was able to make a timeline section to illustrate the history of AI in due time and in my visual idea                                          |
+| [Written content aid](https://chatgpt.com/)                                                                                                                                                                                                                                                                | Written Content Aid for Read Page                                                | Certain topics such as Machine Learning, and understanding how LLMs work, written on the site on where also from what I learnt from ChatGPT                               |
+| [Markdown Used](https://github.com/boderg/your-weather)                                                                                                                                                                                                                                                    | Markdown                                                                         | Markdown template was from the given[github repo](https://github.com/boderg/your-weather) for the both "README" and "TESTING"                                                |
+| [Code snippets](https://uche05.github.io/CIstuff/)                                                                                                                                                                                                                                                         | Code Snippets for header, main and footer elements and certain of their children | Certain header, main and footer elements where were created from inspiration from Love Running Project taught by Code Institute.                                          |
 
 ### Media
 
-| Name of media | Location | Type | Notes |
-| --- | --- | --- | --- |
-|[Image used in home page](assets/images/ailibimgwhite.png)| Home Page | Image  |Main content image at home page|
-|[Favicon](assets/images/robot.svg)| Favicon | SVG | Personally made SVG Favicon with knowledge on how from W3Schools|
-|[MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)|Home page|image| Personally constructed image for the home page |
-|[Wikipedia](https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg) | History section of Read Page | image | AI Summit 2023 Group of Reps Image|
-|[Toggle Menu](https://fontawesome.com/search?o=r&m=free)| Navigation bar at header of all pages | Icon | Toggle Hamburger Menu from Font Awesome|
-|[Favicon used](assets/images/robot.svg)| Favicon and Title | Favicon | With the knowledge I earned from W3schools I made the given svg file and used it as my favicon|
-|[Video Used](https://app.synthesia.io/)| About page | Video | I used synthesia.io to make a quick video about AI Lib |
-|[Social media Icons Used](https://fontawesome.com/search?o=r&m=free)| Footer of all pages | Icons | I used Font Awesome to obtain the icons used for the footer |
-|[Man from mce.ca](https://www.metrocontinuingeducation.ca/wp-content/uploads/2019/06/man-looking-at-computer.jpg)| About Page | image |Man Looking at computer|
-|[Hephaestus Image from cdna-workstation.com](https://cdna.artstation.com/p/assets/images/images/035/422/410/large/luis-branco-hefesto.jpg?1614904348) |Read Page | Image | Image of greek god, Hephaestus used in read page content |
-|[Hero of Alexandria from lookandlearn.com](https://www.lookandlearn.com/history-images/preview/M/M176/M176731_Hero-of-Alexandria-experimenting-with-steam-120-BC.jpg) | Read Page | Image | Image of hero of alexandria experimenting with a steam-based invention used in read page content|
-|[Atlas 2024 Image from heavenofhorror.com](https://www.heavenofhorror.com/wp-content/uploads/2024/05/Atlas-Netflix-Review.jpg) | Read page | Image | The picture of the movie tile, Atlas  |
-|[Pexels Images](https://www.pexels.com/search)| Read page | Images | Most images used in the read page are from pexels.com  |
-|[Robot image from pexels.com](https://www.pexels.com/search/videos/automatons/) | Read Page | Image | Robot image used in about page content. |
-|[Robot looking image from pexels.com](https://www.pexels.com/search/videos/automatons/) | Read Page  | Image | Robot image used in read page content. |
-|[Image of Graph-like structure from pexels.com ](https://www.pexels.com/search/videos/automatons/) | Read Page  | Image | Graph-like structure used in read page content. |
-|[Image of llms questions from pexels.com ](https://www.pexels.com/search/videos/automatons/) | Read Page  | Image | LLM question image used in read page content. |
-|[Image of machine learning typewritten from pexels.com](https://www.pexels.com/search/videos/automatons/) | Read Page | Image | Machine Learning typewritten used in read page content. |
-|[Image of "ChatGPT" in scrabble tiles ](https://www.pexels.com/search/videos/automatons/) | Read Page  | Image | Image of "ChatGPT" in scrabble tiles used in read page content. |
+| Name of media                                                                                                                                                      | Location                              | Type    | Notes                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- | ------- | ------------------------------------------------------------------------------------------------ |
+| [Image used in home page](assets/images/ailibimgwhite.png)                                                                                                            | Home Page                             | Image   | Main content image at home page                                                                  |
+| [Favicon](assets/images/robot.svg)                                                                                                                                    | Favicon                               | SVG     | Personally made SVG Favicon with knowledge on how from W3Schools                                 |
+| [MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)                  | Home page                             | image   | Personally constructed image for the home page                                                   |
+| [Wikipedia](https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg)                                             | History section of Read Page          | image   | AI Summit 2023 Group of Reps Image                                                               |
+| [Toggle Menu](https://fontawesome.com/search?o=r&m=free)                                                                                                              | Navigation bar at header of all pages | Icon    | Toggle Hamburger Menu from Font Awesome                                                          |
+| [Favicon used](assets/images/robot.svg)                                                                                                                               | Favicon and Title                     | Favicon | With the knowledge I earned from W3schools I made the given svg file and used it as my favicon   |
+| [Video Used](https://app.synthesia.io/)                                                                                                                               | About page                            | Video   | I used synthesia.io to make a quick video about AI Lib                                           |
+| [Social media Icons Used](https://fontawesome.com/search?o=r&m=free)                                                                                                  | Footer of all pages                   | Icons   | I used Font Awesome to obtain the icons used for the footer                                      |
+| [Man from mce.ca](https://www.metrocontinuingeducation.ca/wp-content/uploads/2019/06/man-looking-at-computer.jpg)                                                     | About Page                            | image   | Man Looking at computer                                                                          |
+| [Hephaestus Image from cdna-workstation.com](https://cdna.artstation.com/p/assets/images/images/035/422/410/large/luis-branco-hefesto.jpg?1614904348)                 | Read Page                             | Image   | Image of greek god, Hephaestus used in read page content                                         |
+| [Hero of Alexandria from lookandlearn.com](https://www.lookandlearn.com/history-images/preview/M/M176/M176731_Hero-of-Alexandria-experimenting-with-steam-120-BC.jpg) | Read Page                             | Image   | Image of hero of alexandria experimenting with a steam-based invention used in read page content |
+| [Atlas 2024 Image from heavenofhorror.com](https://www.heavenofhorror.com/wp-content/uploads/2024/05/Atlas-Netflix-Review.jpg)                                        | Read page                             | Image   | The picture of the movie tile, Atlas                                                             |
+| [Pexels Images](https://www.pexels.com/search)                                                                                                                        | Read page                             | Images  | Most images used in the read page are from pexels.com                                            |
+| [Robot image from pexels.com](https://www.pexels.com/search/videos/automatons/)                                                                                       | Read Page                             | Image   | Robot image used in about page content.                                                          |
+| [Robot looking image from pexels.com](https://www.pexels.com/search/videos/automatons/)                                                                               | Read Page                             | Image   | Robot image used in read page content.                                                           |
+| [Image of Graph-like structure from pexels.com ](https://www.pexels.com/search/videos/automatons/)                                                                    | Read Page                             | Image   | Graph-like structure used in read page content.                                                  |
+| [Image of llms questions from pexels.com ](https://www.pexels.com/search/videos/automatons/)                                                                          | Read Page                             | Image   | LLM question image used in read page content.                                                    |
+| [Image of machine learning typewritten from pexels.com](https://www.pexels.com/search/videos/automatons/)                                                             | Read Page                             | Image   | Machine Learning typewritten used in read page content.                                          |
+| [Image of &#34;ChatGPT&#34; in scrabble tiles ](https://www.pexels.com/search/videos/automatons/)                                                                     | Read Page                             | Image   | Image of "ChatGPT" in scrabble tiles used in read page content.                                  |
 
 ### Acknowledgements
 
