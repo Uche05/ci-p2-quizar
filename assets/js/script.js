@@ -1,3 +1,5 @@
+//remember to add the loading feature that makes loading easier and other techniques suggested by ChatGPT
+
 // lets start by making a question set which contains the answers as well
 
 //remember that based on how your html structure is we need to remove the instruction-set before we start questions
