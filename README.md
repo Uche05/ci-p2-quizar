@@ -2,10 +2,10 @@
 
 - QuizAR is a static site that askes quizzes on the basic knowledge about AI, Artificial Intelligence.
 - The QuizAR has been designed so that users at any level, who can read, write, and understand text (mainly in English), and have a drive to learn about AI, can answer the questions.
-- QuizAR is especially handy for those wish to be quized on about AI and its history and state of the arts.
-- QuizAR helps one reinforce their fundamental AI knowledge as th .
+- QuizAR is especially handy for those wish to be quizzed on about AI and its history and state of the arts.
+- QuizAR helps one reinforce their fundamental AI knowledge as they answer the questions provided on QuizAR .
 - QuizAR is the AI website for everyone. The wikified website for just for knowing about AI and it is free.
-- QuizAR also contains Machine Learning based knowledge.
+- QuizAR also contains questions on Machine Learning based knowledge.
 
 ## Table of Contents
 
