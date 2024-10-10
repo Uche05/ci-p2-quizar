@@ -31,7 +31,7 @@
                 <li>Play the game by clicking Start Quiz!!</li>
                 <li>Click on the QuizAR logo to refresh and start again!</li>
             </ol>
-        <button id="start-quiz">Start Quiz!</button>
+            <button id="start-quiz">Start Quiz!</button>
         </div>
 
         <!-- Question Section-->
@@ -41,14 +41,21 @@
             </div>
 
             <div class="answer-container">
-                <button id="ans--1" class="answer-btn" data-answer="1">A Alien Intelligence</button>
-                <button id="ans--2" class="answer-btn" data-answer="2">B Alien Initiative</button>
-                <button id="ans--3" class="answer-btn" data-answer="3">C Artitifical Intelligence</button>
-                <button id="ans--4" class="answer-btn" data-answer="4">D Artificial Interferances</button>
+                <button id="ans--1" class="answer-btn" data-answer="1"></button>
+                <button id="ans--2" class="answer-btn" data-answer="2"></button>
+                <button id="ans--3" class="answer-btn" data-answer="3"></button>
+                <button id="ans--4" class="answer-btn" data-answer="4"></button>
             </div>
 
             <button id="submit">Submit!</button>
         </div>
+
+        <!-- Hidden div for analytics/results -->
+        <div id="result-section" style="display: none;">
+            <h2>Your Score: <span id="score"></span></h2>
+            <p id="analytics"></p> <!-- This will show detailed analytics -->
+        </div>
+        
     </main>
 
     <footer>
