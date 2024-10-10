@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ++score; // Increment score if the answer is correct
         }
         else{
-            alert(`Incorrect, the answer is ${quiz[currentQuestionIndex].answer}`);
+            document.getElementById("is-correct").innerText =(`Incorrect, the answer is ${quiz[currentQuestionIndex].answer}`);
         }
 
         // Update the score display
@@ -158,6 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
     /**Function to move to the next question
      */
     function nextQuestion() {
+        
         currentQuestionIndex++; // Increment the question index
 
         // Check if there are more questions to display
