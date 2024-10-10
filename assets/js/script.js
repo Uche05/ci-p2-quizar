@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
             options: ["No", "Yes", "Maybe", "I don't know"],
             answer: "No"
         }
-    ]
+    ];
 
     // show the instruction section at first
     instructionSect.style.display = "block";
