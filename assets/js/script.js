@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const quizContainer = document.querySelector(".quiz-container");
     const answerButtons = document.querySelectorAll(".answer-btn");
     const submitButton = document.getElementById("submit");
+    const imageSupport = document.getElementById("correct-img");
 
 
     let selectedAnswer = "";
@@ -75,35 +76,37 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     ];
 
-    
+
     instructionSect.style.display = "block";
 
+
     quizContainer.style.display = "none";
+    imageSupport.style.display = "none";
 
     startQuizButton.addEventListener("click", function () {
-        
+
         instructionSect.style.display = "none";
-        
+
         quizContainer.style.display = "block";
-        
+
         displayQuestionAndAnswers(currentQuestionIndex);
     });
 
     // add click event to each answer button : ChatGPT AIDED CODE
     answerButtons.forEach(button => {
         button.addEventListener("click", function () {
-            
+
             answerButtons.forEach(btn => btn.classList.remove("active"));
-            
+
             this.classList.add("active");
-            
+
             selectedAnswer = this.textContent;
         });
-        
+
     });
 
-//Tip from the Love Maths Lesson
-    
+    //Tip from the Love Maths Lesson
+
     document.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
             checkAnswer();
@@ -113,10 +116,10 @@ document.addEventListener("DOMContentLoaded", function () {
     /** Function to display the current question and its answers
      *  */
     function displayQuestionAndAnswers(index) {
-        
+
         document.getElementById("question").innerText = quiz[index].question;
 
-        
+
         quiz[index].options.forEach((option, i) => {
             answerButtons[i].innerHTML = option;
             answerButtons[i].classList.remove("active");
@@ -139,8 +142,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (selectedAnswer === quiz[currentQuestionIndex].answer) {
             ++score;
         }
-        else{
-            document.getElementById("is-correct").innerText =(`Incorrect, the question was ${quiz[currentQuestionIndex].question} and the answer is ${quiz[currentQuestionIndex].answer}`);
+        else {
+            document.getElementById("is-correct").innerText = (`Incorrect, the question was ${quiz[currentQuestionIndex].question} and the answer is ${quiz[currentQuestionIndex].answer}`);
+            imageSupport.style.display = "inline-block";
         }
 
         document.getElementById("score-text").innerText = `Score: ${score}`;
@@ -151,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
     /**Function to move to the next question
      */
     function nextQuestion() {
-        
+
         currentQuestionIndex++;
 
         if (currentQuestionIndex < quiz.length) {
