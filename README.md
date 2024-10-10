@@ -1,4 +1,4 @@
-# [QuizAR](https://uche05.github.io/ "Click to view the deployed site")
+# [QuizAR](https://uche05.github.io/ci-p2-quizar/ "Click to view the deployed site")
 
 - QuizAR is a static site that askes quizzes on the basic knowledge about AI, Artificial Intelligence.
 - The QuizAR has been designed so that users at any level, who can read, write, and understand text (mainly in English), and have a drive to learn about AI, can answer the questions.
