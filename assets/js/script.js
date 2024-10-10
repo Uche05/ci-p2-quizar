@@ -144,6 +144,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (selectedAnswer === quiz[currentQuestionIndex].answer) {
             ++score; // Increment score if the answer is correct
         }
+        else{
+            alert(`Incorrect, the answer is ${quiz[currentQuestionIndex].answer}`);
+        }
 
         // Update the score display
         document.getElementById("score-text").innerText = `Score: ${score}`;
