@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
     //hide the quiz container at first
     quizContainer.style.display = "none";
 
+    //show the instructionSect at first
+    instructionSect.style.display = "block";
+
+
     //add a click event listener to start quiz button
     startQuizButton.addEventListener("click", function() {
 
