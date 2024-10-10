@@ -93,9 +93,7 @@ I have tested my deployed project using the Lighthouse web accessibility evaluat
 ![Screenshot](documentationimages/pixel7res.png)
 - As a new tablet or iPad user, I want to be able to have a nice view of the site as well as navigate efficiently
 ![Screenshot](documentationimages/ipadminires.png)
-- As a new user, I would want to be able to navigate back to the start if I have to or even try again.
-![Screenshot](documentation/features/socialsinfooter.png)
-- As a new user I want to receive final feedback on the number of questions I got right overall.
+- As a new user, I would want to be able to navigate back to the start if I have to or even try again and receive final feedback on the number of questions I got right overall..
 ![Screenshot](documentationimages/finalfeedback.png)
 
 

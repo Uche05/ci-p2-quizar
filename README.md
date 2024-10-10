@@ -259,3 +259,4 @@ irene.neville@codeinstitute.net) for their advice.
 - I would like to appreciate the [W3schools website](https://www.w3schools.com/) and [OpenAI's ChatGPT](https://chatgpt.com/) for their free websites and resources that educate on many technological  and coding concepts intuitively and enabled me understand and learn how to craft needed stuff for my website.
 - I would like to thank my family, for their support and understanding, for believing in me, and allowing me to make this transition into software development.
 - I personally enjoyed performing this project as it was a chance to both construct and actually program using coding programming techniques and paradigms; to make a functional content myself through research and personal study.
+- Written and edited by Uchechukwu Christian Kpadeuwa
