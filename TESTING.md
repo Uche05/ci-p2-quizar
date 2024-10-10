@@ -32,18 +32,18 @@ Return back to the [README.md](README.md) file.
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-![Screeenshot](documentationimages/htmlcheck1.png)
+![Screenshot](documentationimages/htmlcheck1.png)
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-![Screeenshot](documentationimages/csscheck1.png)
+![Screenshot](documentationimages/csscheck1.png)
 
 ### JS
 I have used the recommended [JSHint Linter](https://jshint.com/) to validate all of my JS files.
 
-![Screeenshot](documentationimages/jscheck1.png)
+![Screenshot](documentationimages/jscheck1.png)
 
 ## Browser Compatibility
 
