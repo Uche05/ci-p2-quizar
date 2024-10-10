@@ -86,13 +86,23 @@ h1 a{
     margin: 5%;
 }
 
-.answer-container button {
+.answer-btn{
     margin: 1%;
-    padding: 2%;
+    padding: 10px;
     text-align: left;
-    font-size: large;
+    font-size: 1.1rem;
     color: #004D00;
     cursor: pointer;
+}
+
+.answer-btn:hover {
+    background-color: #80a175;
+}
+
+.answer-btn.active{
+    background-color: #80A175;
+    border: 2px solid #EAEAD9;
+    color: white;
 }
 
 #submit {
@@ -142,11 +152,6 @@ footer{
     .quiz-container {
         max-width: 500px;
         margin: 50px auto;
-    }
-
-    button {
-        font-size: 1.2rem;
-        padding: 20px 30px;
     }
 
     footer {
