@@ -237,7 +237,7 @@ The following are credits to various people and technologies that have directly 
 
 | Source | Location | Notes |
 | --- | --- | --- |
-|[Javascript Code-Check Aid](https://chatgpt.com/)| Tool to check javascript code as i wrote it | The Javascript code I used was very messy at times, hence I used ChatGPT as a tool to aid me correct and update my code where necessary, due to that I learn how to use the arrow function; "=>", forEach function and learnt the flexibility Javascript offers that Python does not such as storing objects in arrays from certain corrections ChatGPT gave me. |
+|[Javascript Code-Check Aid](https://chatgpt.com/)| Tool to check javascript code as i wrote it | The JavaScript code I wrote was often quite messy, so I used ChatGPT to help correct and update it. Through this process, I learned how to use arrow functions (=>), the forEach function, and discovered the flexibility JavaScript offers, such as storing objects in arrays— something Python doesn’t do as easily. Thanks to ChatGPT’s guidance, my final JavaScript code was error-free. |
 |[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given [github repo](https://github.com/boderg/your-weather) for the both "README" and "TESTING"|
 |[Code snippets](https://github.com/Uche05/ci-p2-quizar)|Javascript Code Snippets for loading and using enter key | Javascript code use of loading and use of enter key was inspired from inspiration from Love Math Project taught by Code Institute.|
 
@@ -245,9 +245,9 @@ The following are credits to various people and technologies that have directly 
 
 | Name of media | Location | Type | Notes |
 | --- | --- | --- | --- |
-|[Favicon](assets/images/favicon.svg)| Favicon | SVG | Personally made SVG Favicon with knowledge on how to from W3Schools|
+|[Favicon](assets/images/favicon.svg)| Favicon | SVG | I made the given SVG Favicon with knowledge on how to from W3Schools and ChatGPT|
 |[MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)|Home page|image| Personally constructed image for the home page |
-|[Favicon used](assets/images/robot.svg)| Favicon and Title | Favicon | With the knowledge I earned from W3schools I made the given svg file and used it as my favicon|
+|[Favicon used](assets/images/robot.svg)| Favicon and Title | Favicon | With the knowledge I earned from W3schools and ChatGPT, I made the given svg file and used it as my favicon|
 |[Icons Used](https://fontawesome.com/search?o=r&m=free)| Feedback after quiz is finished | Icons | I used Font Awesome to obtain the icons used for the feedback after quiz is finished |
 
 ### Acknowledgements
