@@ -50,10 +50,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function startGame() {
     //return index and in order to make the displayQuestionandAnswers work
-    let indexRange = Math.floor(Math.random() * 5) + 1;
-    let questionIndex = quiz[index].question;
-    //we need to make sure that the questions are in order;
-    displayQuestionAndAnswers(questionIndex);
+
+    let index = 0; //I will look for another logic later
+
+    //Display the first question and its answers
+    displayQuestionAndAnswers(index);
 };
 
 // lets start by making a question set which contains the answers as well
@@ -74,22 +75,64 @@ const quiz = [
 //we need a function that displays the question
 
 function displayQuestionAndAnswers(index) {
-    mainQuestion = document.getElementById("question").innerHTML = quiz[index].question;
+    document.getElementById("question").innerHTML = quiz[index].question;
+
+    const answerButtons = document.querySelectorAll(".answer-btn");
+
+    // Display the answer options by updating button text
+    quiz[index].options.forEach((option, i) => {
+        answerButtons[i].innerHTML = option;
+        answerButtons[i].classList.remove("active"); // Reset active class
+        answerButtons[i].addEventListener("click", function () {
+            // Add 'active' class when an option is selected
+            answerButtons.forEach(btn => btn.classList.remove("active"));
+            this.classList.add("active");
+        });
+    });
+}
+
+// Submit function to move to the next question and track score
+document.getElementById("submit").addEventListener("click", function () {
+    const selectedOption = document.querySelector(".answer-btn.active");
+
+    if (!selectedOption) {
+        alert("Please select an answer!");
+        return;
+    }
+
+    // Check if the selected answer is correct
+    let selectedAnswer = selectedOption.innerHTML;
+    if (selectedAnswer === quiz[currentQuestionIndex].answer) {
+        score++; // Increment score if the answer is correct
+    }
+
+    currentQuestionIndex++; // Move to the next question
+
+    // Check if there are more questions
+    if (currentQuestionIndex < totalQuestions) {
+        displayQuestionAndAnswers(currentQuestionIndex);
+    } else {
+        displayResults(); // All questions answered, show results
+    }
+});
+
+// Function to display the results and analytics
+function displayResults() {
+    // Hide the quiz container
+    document.querySelector(".quiz-container").style.display = "none";
+
+    // Display the results section
+    const resultSection = document.getElementById("result-section");
+    resultSection.style.display = "block";
+
+    // Update the score display
+    document.getElementById("score").innerHTML = `${score} / ${totalQuestions}`;
+
+    // Display analytics (you can customize this)
+    const analyticsMessage = `You answered ${score} out of ${totalQuestions} questions correctly.`;
+    document.getElementById("analytics").innerHTML = analyticsMessage;
+}
 
 
-};
-
-//we need a function that checks the answer and tracks the user's progress
-function checkAnswer() {
-
-};
-
-function trackUserProgress() {
-
-};
-
-
-// a function that can make an analysis section after user has opted to check the analytics
-function analyticsDisplay() {
-
-};
+// Start the game when the page loads
+startGame();
