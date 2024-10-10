@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
             question: "What is the process of discovering patterns and knowledge from large amounts of data",
             options: ["Machine learning", "Data mining",
                 "Artificial Intelligence", "Artificial Interferences"],
-            answer: "Data Mining"
+            answer: "Data mining"
         },
         {
             question: "What is ML?",
