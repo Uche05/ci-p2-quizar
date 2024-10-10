@@ -1,138 +1,169 @@
-//Wait for the DOM to finish loading
-
+// Wait for the DOM to finish loading
 document.addEventListener("DOMContentLoaded", function () {
-    // Select the elements that need to showcase after
+    // Select the elements that need to be showcased after loading
     const startQuizButton = document.getElementById("start-quiz");
     const instructionSect = document.querySelector(".instruction-sect");
     const quizContainer = document.querySelector(".quiz-container");
     const answerButtons = document.querySelectorAll(".answer-btn");
+    const submitButton = document.getElementById("submit");
 
-    // Variable to store the selected answer
+    // Variables to store the selected answer, score, and question index
     let selectedAnswer = "";
+    let score = 1;
+    let currentQuestionIndex = 0;
 
-    //hide the quiz container at first
+    // Array of quiz questions
+    const quiz = [
+        {
+            question: "What is AI?",
+            options: ["Alien Intelligence", "Artificial Intelligence",
+                "Alien Initiative", "Artificial Interferences"],
+            answer: "Artificial Intelligence"
+        },
+        {
+            question: "What is ANNs?",
+            options: ["Artifiical Nation of Networks", "Ants Nomads are Natural",
+                "Artificial Neural Networks", "Analytical Neural Networks"],
+            answer: "Artificial Neural Networks"
+        },
+        {
+            question: "When was the first AI Summit held?",
+            options: ["2020", "2010", "2023", "2024"],
+            answer: "2023"
+        },
+        {
+            question: "Machine learning is a ____ of AI",
+            options: ["subset", "member", "mother", "art"],
+            answer: "subset"
+        },
+        {
+            question: "Which does not belong to the group?",
+            options: ["Supervised learning", "network learning",
+                "reinforcement learning", "semi-supervised learning"],
+            answer: "network learning"
+        },
+        {
+            question: "What is the process of discovering patterns and knowledge from large amounts of data",
+            options: ["Machine learning", "Data mining",
+                "Artificial Intelligence", "Artificial Interferences"],
+            answer: "Data Mining"
+        },
+        {
+            question: "What is ML?",
+            options: ["Alien Intelligence", "Machine Learning",
+                "Monster Learning", "Mechanical Levitation"],
+            answer: "Machine Learning"
+        },
+        {
+            question: "ML utilizes algorithms and data?",
+            options: ["No", "Yes", "Maybe", "I don't know"],
+            answer: "Yes"
+        },
+        {
+            question: "Is a clear distinction between AI and Robots?",
+            options: ["No", "Yes", "Maybe", "I don't know"],
+            answer: "Yes"
+        },
+        {
+            question: 'Is your boss right when he says, "Automation and AI are the same thing"',
+            options: ["No", "Yes", "Maybe", "I don't know"],
+            answer: "No"
+        }
+    ]
+
+    // Show the instruction section at first
+    instructionSect.style.display = "block";
+    // Hide the quiz container at first
     quizContainer.style.display = "none";
 
-    //show the instructionSect at first
-    instructionSect.style.display = "block";
-
-
-    //add a click event listener to start quiz button
+    // Add a click event listener to the start quiz button
     startQuizButton.addEventListener("click", function () {
-
-        //hide the instruction section
+        // Hide the instruction section
         instructionSect.style.display = "none";
-
-        //show the quiz container
+        // Show the quiz container
         quizContainer.style.display = "block";
-    })
+        // Start the quiz by displaying the first question
+        displayQuestionAndAnswers(currentQuestionIndex);
+    });
 
-    //add click event to each answer button
+    // Add click event to each answer button
     answerButtons.forEach(button => {
         button.addEventListener("click", function () {
-            //remove 'active' class from all buttons
+            // Remove 'active' class from all buttons
             answerButtons.forEach(btn => btn.classList.remove("active"));
-
-            //add 'active' class to the clicked button
+            // Add 'active' class to the clicked button
             this.classList.add("active");
-
-            //store THE SELECTED ANSWER (button text or value) -> variable for the selected answer
+            // Store the selected answer
             selectedAnswer = this.textContent;
-
         });
-
+        
     });
 
+    /** Function to display the current question and its answers
+     *  */
+    function displayQuestionAndAnswers(index) {
+        // Display the question
+        document.getElementById("question").innerText = quiz[index].question;
 
-
-    startGame();
-});
-
-function startGame() {
-    //return index and in order to make the displayQuestionandAnswers work
-
-    let index = 0; //I will look for another logic later
-
-    //Display the first question and its answers
-    displayQuestionAndAnswers(index);
-};
-
-// lets start by making a question set which contains the answers as well
-const quiz = [
-    {
-        question: "What is AI?",
-        options: ["Alien Intelligence", "Artificial Intelligence", "Alien Initiative", "Artificial Interferances"],
-        answer: "Artificial Intelligence"
-    },
-
-    {
-        question: "What is ANNs?",
-        options: ["AI", "ANNs", "Artificial Neural Networks", "DNNs"],
-        answer: "Artificial Neural Networks"
-    }
-];
-
-//we need a function that displays the question
-
-function displayQuestionAndAnswers(index) {
-    document.getElementById("question").innerHTML = quiz[index].question;
-
-    const answerButtons = document.querySelectorAll(".answer-btn");
-
-    // Display the answer options by updating button text
-    quiz[index].options.forEach((option, i) => {
-        answerButtons[i].innerHTML = option;
-        answerButtons[i].classList.remove("active"); // Reset active class
-        answerButtons[i].addEventListener("click", function () {
-            // Add 'active' class when an option is selected
-            answerButtons.forEach(btn => btn.classList.remove("active"));
-            this.classList.add("active");
+        // Display the answer options by updating button text
+        quiz[index].options.forEach((option, i) => {
+            answerButtons[i].innerHTML = option;
+            answerButtons[i].classList.remove("active"); // Reset active class
         });
-    });
-}
-
-// Submit function to move to the next question and track score
-document.getElementById("submit").addEventListener("click", function () {
-    const selectedOption = document.querySelector(".answer-btn.active");
-
-    if (!selectedOption) {
-        alert("Please select an answer!");
-        return;
     }
 
-    // Check if the selected answer is correct
-    let selectedAnswer = selectedOption.innerHTML;
-    if (selectedAnswer === quiz[currentQuestionIndex].answer) {
-        score++; // Increment score if the answer is correct
+    /** Function to check the user's answer
+     */
+    function checkAnswer() {
+        const selectedOption = document.querySelector(".answer-btn.active");
+
+        // Check if an answer was selected
+        if (!selectedOption) {
+            alert("Please select an answer!");
+            return; // Don't proceed if no answer is selected
+        }
+
+        // Get the selected answer
+        let selectedAnswer = selectedOption.innerHTML;
+
+        // Check if the selected answer is correct
+        if (selectedAnswer === quiz[currentQuestionIndex].answer) {
+            score++; // Increment score if the answer is correct
+        }
+
+        // Update the score display
+        document.getElementById("score-text").innerText = `Score: ${score}`;
+
+        // Move to the next question
+        nextQuestion();
     }
 
-    currentQuestionIndex++; // Move to the next question
+    /**Function to move to the next question
+     */
+    function nextQuestion() {
+        currentQuestionIndex++; // Increment the question index
 
-    // Check if there are more questions
-    if (currentQuestionIndex < totalQuestions) {
-        displayQuestionAndAnswers(currentQuestionIndex);
-    } else {
-        displayResults(); // All questions answered, show results
+        // Check if there are more questions to display
+        if (currentQuestionIndex < quiz.length) {
+            displayQuestionAndAnswers(currentQuestionIndex); // Show the next question
+        } else {
+            displayResults(); // If no more questions, show the results
+        }
     }
+
+    /**Function to display the results after the quiz ends
+     */
+    function displayResults() {
+        // Hide the quiz container
+        quizContainer.style.display = "none";
+        // Display the results section
+        const resultSection = document.getElementById("result-section");
+        resultSection.style.display = "flex";
+        // Update the score display in the results section
+        document.getElementById("analytics").innerText = `Your final score is ${score} out of ${quiz.length}`;
+    }
+
+    // Add event listener to the submit button to check the answer
+    submitButton.addEventListener("click", checkAnswer);
 });
 
-// Function to display the results and analytics
-function displayResults() {
-    // Hide the quiz container
-    document.querySelector(".quiz-container").style.display = "none";
-
-    // Display the results section
-    const resultSection = document.getElementById("result-section");
-    resultSection.style.display = "block";
-
-    // Update the score display
-    document.getElementById("score").innerHTML = `${score} / ${totalQuestions}`;
-
-    // Display analytics (you can customize this)
-    const analyticsMessage = `You answered ${score} out of ${totalQuestions} questions correctly.`;
-    document.getElementById("analytics").innerHTML = analyticsMessage;
-}
-
-
-// Start the game when the page loads
-startGame();
