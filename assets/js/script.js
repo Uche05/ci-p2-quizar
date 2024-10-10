@@ -5,19 +5,18 @@
 //Tip from Love Maths Lesson
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Select the elements that need to be showcased after loading
+
     const startQuizButton = document.getElementById("start-quiz");
     const instructionSect = document.querySelector(".instruction-sect");
     const quizContainer = document.querySelector(".quiz-container");
     const answerButtons = document.querySelectorAll(".answer-btn");
     const submitButton = document.getElementById("submit");
 
-    // Variables to store the selected answer, score, and question index
+
     let selectedAnswer = "";
     let score = 0;
     let currentQuestionIndex = 0;
 
-    // Array of quiz questions
     const quiz = [
         {
             question: "What is AI?",
@@ -76,53 +75,51 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     ];
 
-    // show the instruction section at first
+    
     instructionSect.style.display = "block";
 
-    // hide the quiz container at first
     quizContainer.style.display = "none";
 
-    // add a click event listener to the start quiz button
     startQuizButton.addEventListener("click", function () {
-        // hide the instruction section
+        
         instructionSect.style.display = "none";
-        // show the quiz container
+        
         quizContainer.style.display = "block";
-        // start the quiz by displaying the first question
+        
         displayQuestionAndAnswers(currentQuestionIndex);
     });
 
-    // add click event to each answer button
+    // add click event to each answer button : ChatGPT AIDED CODE
     answerButtons.forEach(button => {
         button.addEventListener("click", function () {
-            // remove 'active' class from all buttons
+            
             answerButtons.forEach(btn => btn.classList.remove("active"));
-            // add 'active' class to the clicked button
+            
             this.classList.add("active");
-            // store the selected answer
+            
             selectedAnswer = this.textContent;
         });
         
     });
 
 //Tip from the Love Maths Lesson
-    // add an event listener to handle pressing the Enter key
+    
     document.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
-            checkAnswer();  // Call the checkAnswer function when Enter is pressed
+            checkAnswer();  
         }
     });
 
     /** Function to display the current question and its answers
      *  */
     function displayQuestionAndAnswers(index) {
-        // display the question
+        
         document.getElementById("question").innerText = quiz[index].question;
 
-        // Display the answer options by updating button text
+        
         quiz[index].options.forEach((option, i) => {
             answerButtons[i].innerHTML = option;
-            answerButtons[i].classList.remove("active"); // Reset active class
+            answerButtons[i].classList.remove("active");
         });
     }
 
@@ -134,54 +131,54 @@ document.addEventListener("DOMContentLoaded", function () {
         // Check if an answer was selected
         if (!selectedOption) {
             alert("Please select an answer!");
-            return; // Don't proceed if no answer is selected
+            return;
         }
 
-        // Get the selected answer
         let selectedAnswer = selectedOption.innerHTML;
 
-        // Check if the selected answer is correct
         if (selectedAnswer === quiz[currentQuestionIndex].answer) {
-            ++score; // Increment score if the answer is correct
+            ++score;
         }
         else{
-            document.getElementById("is-correct").innerText =(`Incorrect, the answer is ${quiz[currentQuestionIndex].answer}`);
+            document.getElementById("is-correct").innerText =(`Incorrect, the question was ${quiz[currentQuestionIndex].question} and the answer is ${quiz[currentQuestionIndex].answer}`);
         }
 
-        // Update the score display
         document.getElementById("score-text").innerText = `Score: ${score}`;
 
-        // Move to the next question
         nextQuestion();
+
+        let isCorrect = document.getElementById("is-correct");
+        
+
+
     }
 
     /**Function to move to the next question
      */
     function nextQuestion() {
         
-        currentQuestionIndex++; // Increment the question index
+        currentQuestionIndex++;
 
-        // Check if there are more questions to display
         if (currentQuestionIndex < quiz.length) {
-            displayQuestionAndAnswers(currentQuestionIndex); // Show the next question
+            displayQuestionAndAnswers(currentQuestionIndex);
         } else {
-            displayResults(); // If no more questions, show the results
+            displayResults();
         }
     }
 
     /**Function to display the results after the quiz ends
      */
     function displayResults() {
-        // Hide the quiz container
+
         quizContainer.style.display = "none";
-        // Display the results section
+
         const resultSection = document.getElementById("result-section");
         resultSection.style.display = "flex";
-        // Update the score display in the results section
+
         document.getElementById("analytics").innerText = `Your final score is ${score} out of ${quiz.length}`;
     }
 
-    // Add event listener to the submit button to check the answer
+
     submitButton.addEventListener("click", checkAnswer);
 });
 
