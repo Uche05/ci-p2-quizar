@@ -60,12 +60,12 @@ document.addEventListener("DOMContentLoaded", function () {
             answer: "Machine Learning"
         },
         {
-            question: "ML utilizes algorithms and data?",
+            question: "Does ML utilize algorithms and data?",
             options: ["No", "Yes", "Maybe", "I don't know"],
             answer: "Yes"
         },
         {
-            question: "Is a clear distinction between AI and Robots?",
+            question: "Is there a clear distinction between AI and Robots?",
             options: ["No", "Yes", "Maybe", "I don't know"],
             answer: "Yes"
         },
