@@ -175,6 +175,7 @@ footer{
 
 a{
     text-decoration: none;
+    justify-items: space-between;
 }
 
 a:hover{
