@@ -1,6 +1,6 @@
-//Wait the DOM to finish loading
+//Wait for the DOM to finish loading
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // Select the elements that need to showcase after
     const startQuizButton = document.getElementById("start-quiz");
     const instructionSect = document.querySelector(".instruction-sect");
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     //add a click event listener to start quiz button
-    startQuizButton.addEventListener("click", function() {
+    startQuizButton.addEventListener("click", function () {
 
         //hide the instruction section
         instructionSect.style.display = "none";
@@ -22,14 +22,30 @@ document.addEventListener("DOMContentLoaded", function() {
         //show the quiz container
         quizContainer.style.display = "block";
     })
-    
+
 });
 
 
 // lets start by making a question set which contains the answers as well
+const quiz = [
+    {
+        question: "What is AI?",
+        options: ["Alien Intelligence", "Artificial Intelligence", "Alien Initiative", "Artificial Interferances"],
+        answer: "Artificial Intelligence"
+    },
 
+    {
+        question: "What is ANNs?",
+        options: ["AI", "ANNs", "Artificial Neural Networks", "DNNs"],
+        answer: "Artificial Neural Networks"
+    }
+];
 
 //we need a function that displays the question
+
+function displayQuestion() {
+    
+};
 
 //we need a function that checks the answer and tracks the user's score
 
