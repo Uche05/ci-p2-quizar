@@ -146,11 +146,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("score-text").innerText = `Score: ${score}`;
 
         nextQuestion();
-
-        let isCorrect = document.getElementById("is-correct");
-        
-
-
     }
 
     /**Function to move to the next question
