@@ -1,4 +1,9 @@
-// Wait for the DOM to finish loading
+/**
+ * Wait for the DOM to finish loading
+ */
+
+//Tip from Love Maths Lesson
+
 document.addEventListener("DOMContentLoaded", function () {
     // Select the elements that need to be showcased after loading
     const startQuizButton = document.getElementById("start-quiz");
@@ -9,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Variables to store the selected answer, score, and question index
     let selectedAnswer = "";
-    let score = 1;
+    let score = 0;
     let currentQuestionIndex = 0;
 
     // Array of quiz questions
@@ -71,38 +76,47 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     ]
 
-    // Show the instruction section at first
+    // show the instruction section at first
     instructionSect.style.display = "block";
-    // Hide the quiz container at first
+
+    // hide the quiz container at first
     quizContainer.style.display = "none";
 
-    // Add a click event listener to the start quiz button
+    // add a click event listener to the start quiz button
     startQuizButton.addEventListener("click", function () {
-        // Hide the instruction section
+        // hide the instruction section
         instructionSect.style.display = "none";
-        // Show the quiz container
+        // show the quiz container
         quizContainer.style.display = "block";
-        // Start the quiz by displaying the first question
+        // start the quiz by displaying the first question
         displayQuestionAndAnswers(currentQuestionIndex);
     });
 
-    // Add click event to each answer button
+    // add click event to each answer button
     answerButtons.forEach(button => {
         button.addEventListener("click", function () {
-            // Remove 'active' class from all buttons
+            // remove 'active' class from all buttons
             answerButtons.forEach(btn => btn.classList.remove("active"));
-            // Add 'active' class to the clicked button
+            // add 'active' class to the clicked button
             this.classList.add("active");
-            // Store the selected answer
+            // store the selected answer
             selectedAnswer = this.textContent;
         });
         
     });
 
+//Tip from the Love Maths Lesson
+    // add an event listener to handle pressing the Enter key
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            checkAnswer();  // Call the checkAnswer function when Enter is pressed
+        }
+    });
+
     /** Function to display the current question and its answers
      *  */
     function displayQuestionAndAnswers(index) {
-        // Display the question
+        // display the question
         document.getElementById("question").innerText = quiz[index].question;
 
         // Display the answer options by updating button text
@@ -128,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Check if the selected answer is correct
         if (selectedAnswer === quiz[currentQuestionIndex].answer) {
-            score++; // Increment score if the answer is correct
+            ++score; // Increment score if the answer is correct
         }
 
         // Update the score display
