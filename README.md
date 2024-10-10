@@ -4,7 +4,7 @@
 - The QuizAR has been designed so that users at any level, who can read, write, and understand text (mainly in English), and have a drive to learn about AI, can answer the questions.
 - QuizAR is especially handy for those wish to be quizzed on about AI and its history and state of the arts.
 - QuizAR helps one reinforce their fundamental AI knowledge as they answer the questions provided on QuizAR .
-- QuizAR is the AI website for everyone. The wikified website for just for knowing about AI and it is free.
+- QuizAR is the AI quiz website for everyone. This quiz site for just for answering question about AI and it is free.
 - QuizAR also contains questions on Machine Learning based knowledge.
 
 ## Table of Contents
@@ -59,31 +59,31 @@ Below are two mock-up images of the QuizAR website created using the  `<a href="
 
 |                         Screenshot 1                         |                         Screenshot 2                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![screenshot](documentation/features/readmeimages/mockup1.png) | ![screenshot](documentation/features/readmeimages/mockup2.png) |
+| ![screenshot](documentationimages/responsivesites1.png) | ![screenshot](documentationimages/responsivesites2.png) |
 
 ## UX
 
 - The design for QuizAR was created as a series of wireframes covering mobile, tablet and desktop to determine the initial design and layout of the site.
 - QuizAR site was designed with ease of use and simplicity in mind.
-- A simple clean look was built so that all a user feels comfortable and neutral when using AILib to study.
-- AILib or QuizAR is meant for people who are need knowledge of AI and it's state of the arts.
+- A simple clean look was built so that all a user feels comfortable and neutral when using QuizAR to study.
+- QuizAR is meant for people who need to refresh upon their gained knowledge of AI and it's state of the arts.
 
 ### Colour Scheme
 
 - The chosen colour scheme for QuizAR is designed to be inviting and have a neutral aesthetic while giving a nice splash of colour aesthetic for color-blinded people.
 - The colours used are as follows:-
-- #03045e (Federal Blue)
-- #0077b6
-- #ffffff (white)
-- I used [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-000000) to generate my colour palette initially.
+- #004D00 (Pakistan green)
+- #80a175 (Asparagus)
+- #eaead9 (Eggshell)
+- #ffffff (White)
+- I used [coolors.co](https://coolors.co/user/palettes/67013760ef070c000ca35293) to generate my colour palette initially.
 - I used [coloors.contrastchecker](https://coolors.co/contrast-checker) to check the contrast between text and background colors used, ensuring readability.
 - I used [colorblindor](https://www.color-blindness.com/coblis-color-blindness-simulator/) to ensure my chosen color palette is fit for color-blinded people. This feature was available in Firefox's Developer tools.
 
 ### Typography
 
-- I used the Google Font called 'Moderustic' for the QuizAR site and 'Lora' for the header.
+- I used the Google Font called 'Montserrat' for the QuizAR site.
 - I felt that this font had a cool style that is easy to read and that it fitted well with the QuizAR site.
-- Montserrat was specifically used for the main content text.
 
 ## Icons
 
@@ -94,7 +94,7 @@ Below are two mock-up images of the QuizAR website created using the  `<a href="
 ### New Site Users
 
 - As a new site user, I would like to know what the site is about, so that I understand what the site does.
-  ![Screenshot](documentation/features/whatailibisabout.png)
+  ![Screenshot](documentation/features/whatQuizARisabout.png)
 - As a new site user, I would like to easily navigate through the website intuitively.
   ![Screenshot](documentation/features/navmenu.png)
 - As a new user (mobile reader), I want to browse through a timeline of articles or events, so that I can easily navigate to content based on the date or relevance.
@@ -161,12 +161,12 @@ I made use of Google Slides to make the wireframes of my website.
 
 ### Future Features
 
-- Comment Section and Blog Post so others can contribute and or ask questions which can also be answered by other users, it will be AILib's community.
+- Comment Section and Blog Post so others can contribute and or ask questions which can also be answered by other users, it will be QuizAR's community.
 - Write the privacy notice and terms of use statements and add them to the site.
 - Dark and light mode themes.
 - Feedback Page to receive constructive criticsm, corrections and suggestions for my site.
 - Recommendation engines and user authentication to enable actual sign-ins into the wbesite.
-- Apply legal guidelines into the community of AILib (also future prospect) to avoid destructive criticsm and avoid bad/derogatory comments from users to one another.
+- Apply legal guidelines into the community of QuizAR (also future prospect) to avoid destructive criticsm and avoid bad/derogatory comments from users to one another.
 - Change certain transitions and animations for the timeline page to make it look more attractive.
 
 ## Tools & Technologies Used
@@ -196,7 +196,7 @@ I made use of Google Slides to make the wireframes of my website.
 - [W3C HTML Validator](https://validator.w3.org/) used to do checks for errors on HTML elements.
 - [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp) used to learn how to create an svg and actually create the favicon myself with their "Try It" Editor.
 - [Wave](https://wave.webaim.org/report#/https://uche05.github.io/CI-PROJECTS-KUCJ/) used to check accessibility status of website.
-- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) was the platform I used to conduct research for my written content of AILib as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary.
+- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence) was the platform I used to conduct research for my written content of QuizAR as well as source of inspiration for most of my written topics/ concepts. Please note, I did not cold copy and paste actual written content from wikipedia to my website. I stated all actual word-by-word references on the written content where necessary.
 
 ## [Testing](TESTING.md)
 
@@ -204,11 +204,11 @@ I made use of Google Slides to make the wireframes of my website.
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- In the [GitHub repository](https://github.com/Uche05/ci-p1-ailib), navigate to the Settings tab.
+- In the [GitHub repository](https://github.com/Uche05/ci-p1-QuizAR), navigate to the Settings tab.
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://uche05.github.io/ci-p1-ailib/).
+The live link can be found [here](https://uche05.github.io/ci-p1-QuizAR/).
 
 ### Local Deployment
 
@@ -218,13 +218,13 @@ This project can be cloned or forked in order to make a local copy on your own s
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/Uche05/ci-p1-ailib).
+1. Go to the [GitHub repository](https://github.com/Uche05/ci-p1-QuizAR).
 2. Locate the Code button above the list of files and click it.
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard.
 4. Open Git Bash or Terminal.
 5. Change the current working directory to the one where you want the cloned directory.
 6. In your IDE Terminal, type the following command to clone my repository:
-   - `git clone https://github.com/Uche05/ci-p1-ailib.git`
+   - `git clone https://github.com/Uche05/ci-p1-QuizAR.git`
 7. Press Enter to create your local clone.
 
 For Gitpod users, this was not implemented on gitpod, it was from my local PC directly to Github via git and some useful VSCode extensions.
@@ -234,7 +234,7 @@ For Gitpod users, this was not implemented on gitpod, it was from my local PC di
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
 You can fork this repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Uche05/ci-p1-ailib).
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Uche05/ci-p1-QuizAR).
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account.
 
@@ -263,7 +263,7 @@ The following are credits to various people and technologies that have directly 
 
 | Name of media                                                                                                                                                      | Location                              | Type    | Notes                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- | ------- | ------------------------------------------------------------------------------------------------ |
-| [Image used in home page](assets/images/ailibimgwhite.png)                                                                                                            | Home Page                             | Image   | Main content image at home page                                                                  |
+| [Image used in home page](assets/images/QuizARimgwhite.png)                                                                                                            | Home Page                             | Image   | Main content image at home page                                                                  |
 | [Favicon](assets/images/robot.svg)                                                                                                                                    | Favicon                               | SVG     | Personally made SVG Favicon with knowledge on how from W3Schools                                 |
 | [MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)                  | Home page                             | image   | Personally constructed image for the home page                                                   |
 | [Wikipedia](https://en.wikipedia.org/wiki/File:Vice_President_Harris_at_the_group_photo_of_the_2023_AI_Safety_Summit.jpg)                                             | History section of Read Page          | image   | AI Summit 2023 Group of Reps Image                                                               |
