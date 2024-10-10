@@ -104,9 +104,7 @@ Below are two mock-up images of the QuizAR website created using the  `<a href="
 ![Screenshot](documentationimages/pixel7res.png)
 - As a new tablet or iPad user, I want to be able to have a nice view of the site as well as navigate efficiently
 ![Screenshot](documentationimages/ipadminires.png)
-- As a new user, I would want to be able to navigate back to the start if I have to or even try again.
-![Screenshot](documentation/features/socialsinfooter.png)
-- As a new user I want to receive final feedback on the number of questions I got right overall.
+- As a new user, I would want to be able to navigate back to the start if I have to or even try again and receive final feedback on the number of questions I got right overall..
 ![Screenshot](documentationimages/finalfeedback.png)
 
 ### Returning Site Users
@@ -116,7 +114,7 @@ Below are two mock-up images of the QuizAR website created using the  `<a href="
 ### Future Site Users
 
 - As a future site user, I would like to view a more analytic feedback.
-- As a future site user, i would like their to bee more questions in the quiz site.
+- As a future site user, i would like their to be more questions in the quiz site.
 
 ## Wireframes
 
@@ -176,10 +174,10 @@ I made use of Google Slides to make the wireframes of my website.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
-- [Google Slides](https://docs.google.com/presentation/) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like.
 - [Google Fonts](https://fonts.google.com/) used to search a suitable font and obtain a download link for that font.
 - [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) used to do checks for errors on CSS elements.
 - [JSH Linter](https://jshint.com/) used to do checks for errors on the JS code.
+- [Microsoft PowerPoint](https://www.microsoft365.com/launch/PowerPoint/?auth=2&home=1) used as wireframing tool and basic image review as well as my markup/ideas panel to just keep a decent view of what I needed the site to look like.
 - [VSCode](https://code.visualstudio.com/) used for local IDE for development. It possessed extensions which helped me immensely during my making of the site.
 - [W3C HTML Validator](https://validator.w3.org/) used to do checks for errors on HTML elements.
 - [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp) used to learn how to create an svg and actually create the favicon myself with their "Try It" Editor and learn new Javascript DOM Methods and Properties.
@@ -239,14 +237,14 @@ The following are credits to various people and technologies that have directly 
 | --- | --- | --- |
 |[Javascript Code-Check Aid](https://chatgpt.com/)| Tool to check javascript code as i wrote it | The JavaScript code I wrote was often quite messy, so I used ChatGPT to help correct and update it. Through this process, I learned how to use arrow functions (=>), the forEach function, and discovered the flexibility JavaScript offers, such as storing objects in arrays— something Python doesn’t do as easily. Thanks to ChatGPT’s guidance, my final JavaScript code was error-free. |
 |[Markdown Used](https://github.com/boderg/your-weather)|Markdown| Markdown template was from the given [github repo](https://github.com/boderg/your-weather) for the both "README" and "TESTING"|
-|[Code snippets](https://github.com/Uche05/ci-p2-quizar)|Javascript Code Snippets for loading and using enter key | Javascript code use of loading and use of enter key was inspired from inspiration from Love Math Project taught by Code Institute.|
+|[Code snippets](https://github.com/Uche05/ci-p2-quizar)|Javascript Code Snippets for loading and using enter key | Javascript code use of loading and use of enter key was inspired from  [Love Math Project](https://github.com/Uche05/love-maths-uche05) taught officially by Code Institute.|
 
 ### Media
 
 | Name of media | Location | Type | Notes |
 | --- | --- | --- | --- |
 |[Favicon](assets/images/favicon.svg)| Favicon | SVG | I made the given SVG Favicon with knowledge on how to from W3Schools and ChatGPT|
-|[MyGoogleSlides_Project](https://docs.google.com/presentation/d/1EJI8itIQZtTC1VfslBGDtjCnTPTPxOg0tM2cs2ZGeIs/pub?start=true&loop=false&delayms=3000)|Home page|image| Personally constructed image for the home page |
+|[Microsoft Powerpoint](https://www.microsoft365.com/launch/PowerPoint/?auth=2&home=1)|Home page|image| Personally constructed image as wireframe for the quiz app |
 |[Favicon used](assets/images/robot.svg)| Favicon and Title | Favicon | With the knowledge I earned from W3schools and ChatGPT, I made the given svg file and used it as my favicon|
 |[Icons Used](https://fontawesome.com/search?o=r&m=free)| Feedback after quiz is finished | Icons | I used Font Awesome to obtain the icons used for the feedback after quiz is finished |
 
@@ -254,8 +252,9 @@ The following are credits to various people and technologies that have directly 
 
 - I would like to thank my Code Institute mentor, [Chris Quinn](https://github.com/10xOXR) for his support throughout the development of this project and hopes he enjoys his vacation time.
 - I would like to thank [Code Institute](https://codeinstitute.net) for giving me the opportunity to complete the P2 course.
-- I would like to thank the [Code Institute](https://codeinstitute.net) facilitator team, [Iris Smok](https://github.com/Iris-Smok/Iris-Smok), the Code Institute Student Care and Irene Neville for their advice.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and general information that helps with my studies.
-- I would like to appreciate the [W3schools website](https://www.w3schools.com/) for their free website that educates on many technological  and coding concepts intuitively and enabled me understand and learn how to craft needed stuff for my website .
+- I would like to thank the [Code Institute](https://codeinstitute.net) facilitator team, [Iris Smok](https://github.com/Iris-Smok/Iris-Smok), [the Code Institute Student Care Team](studentcare@codeinstitute.net) and [Irene Neville](
+irene.neville@codeinstitute.net) for their advice.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) and [new friend, Darragh_Drennan](https://code-institute-room.slack.com) for the moral support and general information that helps with my studies with Code Institute.
+- I would like to appreciate the [W3schools website](https://www.w3schools.com/) and [OpenAI's ChatGPT](https://chatgpt.com/) for their free websites and resources that educate on many technological  and coding concepts intuitively and enabled me understand and learn how to craft needed stuff for my website.
 - I would like to thank my family, for their support and understanding, for believing in me, and allowing me to make this transition into software development.
 - I personally enjoyed performing this project as it was a chance to both construct and actually program using coding programming techniques and paradigms; to make a functional content myself through research and personal study.
