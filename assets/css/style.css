@@ -159,38 +159,6 @@ h1 a{
     margin: 2.5%;
 }
 
-.tooltip:hover {
-    visibility: visible;
-    opacity: 1;
-}
-
-.tooltip {
-    position: absolute;
-    bottom: 120%; /* Position the tooltip above the icon */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #333;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 12px;
-    white-space: nowrap;
-    visibility: hidden; /* Hidden by default */
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-
-.tooltip::after {
-    content: '';
-    position: absolute;
-    top: 100%; /* Bottom of the tooltip */
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #333 transparent transparent transparent;
-}
 
 footer{
     background-color: #004D00;
