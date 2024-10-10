@@ -247,6 +247,7 @@ The following are credits to various people and technologies that have directly 
 |[Microsoft Powerpoint](https://www.microsoft365.com/launch/PowerPoint/?auth=2&home=1)|Home page|image| Personally constructed image as wireframe for the quiz app |
 |[Favicon used](assets/images/robot.svg)| Favicon and Title | Favicon | With the knowledge I earned from W3schools and ChatGPT, I made the given svg file and used it as my favicon|
 |[Icons Used](https://fontawesome.com/search?o=r&m=free)| Feedback after quiz is finished | Icons | I used Font Awesome to obtain the icons used for the feedback after quiz is finished |
+| [Feedback Image](https://th.bing.com/th/id/R.7acd2ea060b66321b4fede1bbff805c0?rik=%2fLWFH5zOVsecYw&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fX%2fR%2fM%2fR%2f6%2fy%2fdark-green-cross-mark-md.png&ehk=ErsbA23GrSaH9fP6mvaWMUBtjCNPaHgXMrYjV%2fKzpnU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1)| Feedback after user answers a question | Image/PNG | Used this image to support feedback given to user after answering a question |
 
 ### Acknowledgements
 
