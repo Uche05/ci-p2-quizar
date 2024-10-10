@@ -7,6 +7,8 @@
     <title>QuizAR</title>
     <!--Link to CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Link to favicon-->
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
     <!--Meta description-->
     <meta name="description"
         content="QuizAR website to answer AI-based and Non-AI based questions and receiver analytic scores">
@@ -36,6 +38,8 @@
 
         <!-- Question Section-->
         <div class="quiz-container">
+            <span id="score-text" style="color: white;">Your score is</span>
+
             <div class="question-container">
                 <p id="question">What is AI?</p>
             </div>
@@ -53,9 +57,36 @@
         <!-- Hidden div for analytics/results -->
         <div id="result-section" style="display: none;">
             <h2>Your Score: <span id="score"></span></h2>
-            <p id="analytics"></p> <!-- This will show detailed analytics -->
+            <p id="analytics"></p>
+
+            <ul id="ana-icons">
+
+                <li>
+
+                    <a class="icon" href="index.html" target="_blank" aria-label="Click to start again!">
+                        <i class="fa-solid fa-rotate-right"></i>
+                        <span class="tooltip">Start again</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="icon" href="https://uche05.github.io/ci-p1-ailib/index.html" target="_blank"
+                        aria-label="Click to try AILib">
+                        <i class="fa-solid fa-robot"></i>
+                        <span class="tooltip">Try AILib</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="icon" href="index.html" aria-label="Click to go home!">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="tooltip">Go Home</span>
+                    </a>
+                <li></li>
+            </ul>
+
         </div>
-        
+
     </main>
 
     <footer>
@@ -64,8 +95,8 @@
 
     <!--Script link-->
     <script src="assets/js/script.js"></script>
-    <!--Script link to FontAwesomeIcons-->
-    <script src="https://kit.fontawesome.com/af753a5c1b.js" crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/af753a5c1b.js" crossorigin="anonymous" style="display: none;"></script>
 </body>
 
 </html>
