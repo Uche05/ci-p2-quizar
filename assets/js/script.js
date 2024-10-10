@@ -1,9 +1,29 @@
-//remember to add the loading feature that makes loading easier and other techniques suggested by ChatGPT
+//Wait the DOM to finish loading
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Select the elements that need to showcase after
+    const startQuizButton = document.getElementById("start-quiz");
+    const instructionSect = document.querySelector(".instruction-sect");
+    const quizContainer = document.querySelector(".quiz-container");
+
+    //hide the quiz container at first
+    quizContainer.style.display = "none";
+
+    //add a click event listener to start quiz button
+    startQuizButton.addEventListener("click", function() {
+
+        //hide the instruction section
+        instructionSect.style.display = "none";
+
+        //show the quiz container
+        quizContainer.style.display = "block";
+    })
+    
+});
+
 
 // lets start by making a question set which contains the answers as well
 
-//remember that based on how your html structure is we need to remove the instruction-set before we start questions
-//note that you will need to show and hide certain elements at certain times and when certain things occur
 
 //we need a function that displays the question
 
